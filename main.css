@@ -1,0 +1,210 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@font-face{font-family:'dillen';
+  src:url('fonts/calibrib.ttf') format('truetype'),
+}
+
+/*دکستاپ*/
+@media (min-width: 758px){
+
+
+  body{
+    font-family: Dillen;
+  }
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+  .head{
+    display: flex;    
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  
+  
+    position: fixed;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  
+  }
+  .nothing{
+    width: 65px;
+    height: 65px;
+  }
+  .head img{
+    width: 200px;
+    margin-left: 30px;
+  }
+  .camera-box{
+    background-image:linear-gradient(to top,#0a0b0c,#202124,#0a0b0c);
+    border-radius: 15px;
+    width: 700px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .camera-box p{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .a{
+    text-decoration: none;
+  }
+  .allow p{
+    color: #ffffff;
+    line-height: 15px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .allow{  
+    margin: 15px;
+    background-color: #1a73e8;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  .mic-box{
+    background-color: #9b9b9d;
+    border-radius: 100px;
+    padding: 15px;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .mic-box img{
+    width: 25px;
+    height: 25px;
+  }
+  .vid-box{
+    background-color: #ea4335;
+    border-radius: 100px;
+    padding: 15px;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  .vid-box img{
+    width: 25px;
+    height: 25px;
+  }
+  .b-box-call{
+    margin-top: 100px;
+    display: flex;
+  }
+  
+
+
+}
+
+/*موبایل*/
+@media (max-width: 767px
+){
+
+
+  body{
+    font-family: Dillen;
+  }
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+  .head{
+    display: flex;    
+    background-color: #0a0b0c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  
+  
+    position: fixed;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  
+  }
+  .nothing{
+    width: 70px;
+    height: 70px;
+  }
+  .head img{
+    height: 30px;
+    margin-left: 30px;
+  }
+  .camera-box{
+    background-image:linear-gradient(to top,#0a0b0c,#202124,#0a0b0c);
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 20px;
+  }
+  .camera-box p{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .a{
+    text-decoration: none;
+  }
+  .allow p{
+    color: #ffffff;
+    line-height: 15px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .allow{  
+    margin: 15px;
+    background-color: #1a73e8;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  .mic-box{
+    background-color: #9b9b9d;
+    border-radius: 100px;
+    padding: 15px;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .mic-box img{
+    width: 25px;
+    height: 25px;
+  }
+  .vid-box{
+    background-color: #ea4335;
+    border-radius: 100px;
+    padding: 15px;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  .vid-box img{
+    width: 25px;
+    height: 25px;
+  }
+  .b-box-call{
+    margin-top: 100px;
+    padding-bottom: 50%;
+    display: flex;
+  }
+  
+
+
+}
