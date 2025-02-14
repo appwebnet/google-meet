@@ -119,6 +119,7 @@
   }
   ::-webkit-scrollbar{
     width: 0px;
+    background-color: #0a0b0c;
   }
   
   .head{
